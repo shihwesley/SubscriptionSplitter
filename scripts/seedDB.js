@@ -4,11 +4,14 @@ const db = require("../models");
 // This file empties the Books collection and inserts the books below
 
 mongoose.connect(
-  process.env.MONGODB_URI ||
+  process.env.mongoURI ||
   "mongodb://localhost/subsplit"
 );
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cd52ac0af826173eb9629643ef8bba094ca104e0
  //this where we input all the different services
 const serviceSeed = [
   {
@@ -33,7 +36,7 @@ const serviceSeed = [
     usersAmount: "Unlimited",
     price: 14.95,
     description: "Textbook solutions, Expert Q&A", 
-    category: "study"
+    category: "Study"
   },
   {
     name: "Pandora" ,
@@ -57,8 +60,8 @@ const serviceSeed = [
     plan: "https://ondemand.iheart.com/" ,
     usersAmount: 5,
     price: 14.99,
-    description: "enables users to listen to their favorite stations across the world", 
-    description: "Music"
+    description: "enables users to listen to their favorite stations across the world",
+    category: "Music"
   },
   {
     name: "Crunchy Roll" ,
@@ -67,7 +70,7 @@ const serviceSeed = [
     price: 7.99,
     description: "Anime streaming service",
     category: "Anime"
-  }
+  }];
   
 
 db.Service 
