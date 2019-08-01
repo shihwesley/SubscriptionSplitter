@@ -6,8 +6,7 @@ const serviceSchema = new Schema({
   plan: { type: String, required: true },
   usersAmount: { type: Double, required: true },
   price: {type: Double, required: true},
-  description: {type: String},
-  category: {type: String, required: true}
+  description: {type: String}
 });
 
 const Service = mongoose.model("Service", serviceSchema);

@@ -8,7 +8,6 @@ mongoose.connect(
   "mongodb://localhost/subsplit"
 );
 
- //this where we input all the different services
 const serviceSeed = [
   {
     name: "Netflix",
@@ -68,7 +67,8 @@ const serviceSeed = [
     category: "Anime"
   }];
   
-db.Service
+
+db.Service 
   .remove({})
   .then(() => db.Service.collection.insertMany(serviceSeed))
   .then(data => {
