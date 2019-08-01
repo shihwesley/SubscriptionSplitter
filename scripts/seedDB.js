@@ -8,11 +8,6 @@ mongoose.connect(
   "mongodb://localhost/subsplit"
 );
 
-<<<<<<< HEAD
-
-=======
->>>>>>> cd52ac0af826173eb9629643ef8bba094ca104e0
- //this where we input all the different services
 const serviceSeed = [
   {
     name: "Netflix",
