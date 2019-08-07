@@ -2,6 +2,8 @@
 
 <strong> <h3> OVERVIEW </h3> </strong>
 
+_________________________________________________________________________________________________________________________________
+
 
 <p>Have you ever wanted to sign up for a subscription service, but couldn't afford it?
 If so, you certainly aren't alone. Our service makes utlizing these sometimes costly services
@@ -15,6 +17,7 @@ restaraunt with 1 star, would you? Why share a subscription with someone whose r
 Our app gleams by making the subscription sharing process a seamless one for all parties involved. </p>
 
 <strong> <h3> BUILT WITH </h3> </strong>
+____________________________________________________________________________________________________________________________________
 
   <ul>
       <li><a href="https://getbootstrap.com" rel-"nofollow">
@@ -51,6 +54,7 @@ Our app gleams by making the subscription sharing process a seamless one for all
   </ul> </li>
   
   <strong> <h3> GETTING STARTED </strong> </h3>
+  ________________________________________________________________________________________________________________________________
   
   <strong> <h4> Installation </h4> </strong>
   
@@ -58,13 +62,15 @@ Our app gleams by making the subscription sharing process a seamless one for all
   <li> <small> 2. npm install </small> </li>
   
   <strong> <h3> FUNCTIONALITY </h3> </strong>
+  __________________________________________________________________________________________________________________________________
   
   <strong> <h3> CONTACT <strong></h3>
+  ___________________________________________________________________________________________________________________________________
   
   <p><small><i>if you have any questions or concerns, please feel free to reach out to our team...<small><i></p>
   
-  <li><small> Wesley Shih: <ins> gegewe@gmail.com </ins></small></li>
-  <li><small> Ahmed Chebli <ins> gfdgdgs@gmail.com </ins></small></li>
+  <li><small> Wesley Shih: <ins> wesleyshih@gmail.com </ins></small></li>
+  <li><small> Ahmed Chebli <ins> ahmedchebli@gmail.com </ins></small></li>
   <li><small> Christopher Brady <ins> chrismbrady@gmail.com </ins></small></li>
   
   
