@@ -65,7 +65,7 @@ Our app gleams by making the subscription sharing process a seamless one for all
   
   <li><small> Wesley Shih: <ins> gegewe@gmail.com </ins></small></li>
   <li><small> Ahmed Chebli <ins> gfdgdgs@gmail.com </ins></small></li>
-  <li><small><ins> Christopher Brady chrismbrady@gmail.com </ins></small></li>
+  <li><small> Christopher Brady <ins> chrismbrady@gmail.com </ins></small></li>
   
   
     
