@@ -11,4 +11,5 @@ app, costs could be shared by groups of people from 2 to 1000. </p>
   <p>  Furthermore, our credential system ensures our users that the people whom they're sharing 
 subscriptions with are trustworthy and not frauds. Users are reviewed on a scale similar to yelp;
 if a user is unreliable or doesn't pay, then they will get a low review. You wouldn't eat at a 
-restaraunt with 1 star, would you? Why share a subscription with someone whose rating is low, either? </p>
+restaraunt with 1 star, would you? Why share a subscription with someone whose rating is low, either?
+Our app gleams by making the subscription sharing process a seamless one for all parties involved. </p>
