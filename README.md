@@ -16,13 +16,44 @@ Our app gleams by making the subscription sharing process a seamless one for all
 
 <strong> <h3> BUILT WITH </h3> </strong>
 
-<ol> HTML </ol>
-<ol> Bootstrap </ol>
-<ol> Javascript </ol>
-<ol> CSS3 </ol>
-<ol> MongoDB </ol>
-<ol> React </ol>
+  <ul>
+      <li><a href="https://getbootstrap.com" rel-"nofollow">
+        Bootstrap </a> </ul> </li>
+        <ul> 
+    <li><a href="https://https://html.com/" rel-"nofollow">
+        HTML </a> </ul> </li>
+        <ul> <li>
+    <a href="https://css-tricks.com/" rel-"nofollow">
+        CSS </a> </ul> </li>
+        <ul><li>
+    <a href="https://www.javascript.com/" rel-"nofollow">
+        Javascript </a>
+  </ul> </li>
+  <ul> <li>
+    <a href="https://jquery.com/" rel-"nofollow">
+        J Query </a> </ul> </li>
+        <ul> <li>
+    <a href="https://expressjs.com/" rel-"nofollow">
+   Express </a>
+  </ul> </li>
+   <ul> <li>
+    <a href="https://nodejs.org/en/" rel-"nofollow">
+   Node </a>
+  </ul> </li> <ul> <li>
+    <a href="https://www.mongodb.com/" rel-"nofollow">
+   MongoDB </a>
+  </ul> </li> <ul> <li>
+    <a href="https://reactjs.org/" rel-"nofollow">
+   React </a>
+  </ul> </li> <ul> <li>
+    <a href="https://www.getpostman.com/" rel-"nofollow">
+   Postman </a>
+  </ul> </li>
+  
+  
+    
 
-<strong> <h3> ABOUT THE PROJECT </h3> </strong>
+
+
 
 
