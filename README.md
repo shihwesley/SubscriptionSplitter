@@ -50,6 +50,23 @@ Our app gleams by making the subscription sharing process a seamless one for all
    Postman </a>
   </ul> </li>
   
+  <strong> <h3> GETTING STARTED </strong> </h3>
+  
+  <strong> <h4> Installation </h4> </strong>
+  
+  <li> <small> 1. Clone the Repository: git clone https:://github.com/your_username_/Project-Name.git </small></li>
+  <li> <small> 2. npm install </small> </li>
+  
+  <strong> <h3> FUNCTIONALITY </h3> </strong>
+  
+  <strong> <h3> CONTACT <h/3> <strong>
+  
+  <p><small><i>if you have any questions or concerns, please feel free to reach out to our team...<small><i></p>
+  
+  <li><small> Wesley Shih: <ins> gegewe@gmail.com </ins></small></li>
+  <li><small> Ahmed Chebli <ins> gfdgdgs@gmail.com </ins></small></li>
+  <li><small><ins> Christopher Brady chrismbrady@gmail.com </ins></small></li>
+  
   
     
 
