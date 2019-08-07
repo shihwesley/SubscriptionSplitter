@@ -23,6 +23,6 @@ Our app gleams by making the subscription sharing process a seamless one for all
 <ol> MongoDB </ol>
 <ol> React </ol>
 
-<strong> <h3> About the project </h3> </strong>
+<strong> <h3> ABOUT THE PROJECT </h3> </strong>
 
 
