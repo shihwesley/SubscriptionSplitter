@@ -71,6 +71,9 @@ ________________________________________________________________________________
   <strong> <h3> FUNCTIONALITY </h3> </strong>
   
   ![IMG_20190807_154600](https://user-images.githubusercontent.com/50473646/62663069-0d564280-b92b-11e9-9c40-f4b465b05370.jpg)
+  
+  
+  <i><small> <strong> Shown above </strong> is a shot of the homepage. Within the confines of this page, you can see all the individually listed services our app has to offer, and the prices of each plan. If you want more details about a specific plan, its as easy as clicking the "More Details" button. The Homepage is also where you can find your potential group! </i></small>
   __________________________________________________________________________________________________________________________________
   
   
