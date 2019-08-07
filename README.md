@@ -18,7 +18,10 @@ restaraunt with 1 star, would you? Why share a subscription with someone whose r
 Our app gleams by making the subscription sharing process a seamless one for all parties involved. </p>
 
 <strong> <h3> BUILT WITH </h3> </strong>
-____________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________
+
+
+
 
   <ul>
       <li><a href="https://getbootstrap.com" rel-"nofollow">
@@ -76,7 +79,7 @@ ________________________________________________________________________________
   <li><small> Christopher Brady <ins> chrismbrady@gmail.com </ins></small></li>
   
   <h3> <strong> LOOKING TOWARD THE FUTURE <strong></h3>
-  __________________________________________________________________________________________________________________________________
+  ____________________________________________________________________________________________________________________________________
   
   <p><small> Changes we would like to consider in the future include:</small> </p>
   
