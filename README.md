@@ -1,6 +1,6 @@
 # Subscription Splitter
 
-<strong> <h4> OVERVIEW </h4> </strong>
+<strong> <h3> OVERVIEW </h3> </strong>
 
 
 <p>Have you ever wanted to sign up for a subscription service, but couldn't afford it?
@@ -14,7 +14,7 @@ if a user is unreliable or doesn't pay, then they will get a low review. You wou
 restaraunt with 1 star, would you? Why share a subscription with someone whose rating is low, either?
 Our app gleams by making the subscription sharing process a seamless one for all parties involved. </p>
 
-<strong> <h4> BUILT WITH </h4> </strong>
+<strong> <h3> BUILT WITH </h3> </strong>
 
 <ol> HTML </ol>
 <ol> Bootstrap </ol>
@@ -23,6 +23,6 @@ Our app gleams by making the subscription sharing process a seamless one for all
 <ol> MongoDB </ol>
 <ol> React </ol>
 
-<strong> <h4> About the project </h4> </strong>
+<strong> <h3> About the project </h3> </strong>
 
 
