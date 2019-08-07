@@ -67,6 +67,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Signin from "./pages/Signin";
 import Home from "./pages/Home";
+import Signup from "./pages/Signup";
 
 
 
@@ -76,7 +77,7 @@ function App() {
       <div>   
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/Signin" component={Signin} />
+          <Route exact path="/Signup" component={Signup} />
         </Switch>
       </div>
     </Router>
