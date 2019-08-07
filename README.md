@@ -59,7 +59,7 @@ Our app gleams by making the subscription sharing process a seamless one for all
   
   <strong> <h3> FUNCTIONALITY </h3> </strong>
   
-  <strong> <h3> CONTACT <h/3> <strong>
+  <strong> <h3> CONTACT <strong></h3>
   
   <p><small><i>if you have any questions or concerns, please feel free to reach out to our team...<small><i></p>
   
