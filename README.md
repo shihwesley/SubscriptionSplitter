@@ -8,7 +8,7 @@ ________________________________________________________________________________
 <p>Have you ever wanted to sign up for a subscription service, but couldn't afford it?
 If so, you certainly aren't alone. Our service makes utlizing these sometimes costly services
 much more attainable; through the facilitation of "subscription sharing". Depending on the 
-app, costs could be shared by groups of people from 2 to unlimited. Services offered include: <i><a href=https://www.spotify.com" rel="nofollow">, Spotify</a>, <a href=https://play.hbonow.com/" rel="nofollow">, HBO Now! </a>, <a href=https://www.iheart.com/" rel="nofollow">, iHeartRadio </a>, <a href="tv.youtube.com/" rel="nofollow">, YouTubeTV</a> <a href=https://www.crunchyroll.com/" rel="nofollow">, CrunchyRoll </a>,  <a href="www.chegg.com/" rel="nofollow">, Chegg </a>, <a href="www.netflix.com/" rel="nofollow">, NetFlix</a> </i></p>
+app, costs could be shared by groups of people from 2 to unlimited. Services offered include: <i><a href=https://www.spotify.com" rel="nofollow"> Spotify</a>, <a href=https://play.hbonow.com/" rel="nofollow"> HBO Now! </a> <a href=https://www.iheart.com/" rel="nofollow"> iHeartRadio </a> <a href="tv.youtube.com/" rel="nofollow"> YouTubeTV</a> <a href=https://www.crunchyroll.com/" rel="nofollow"> CrunchyRoll </a>  <a href="www.chegg.com/" rel="nofollow"> Chegg </a> <a href="www.netflix.com/" rel="nofollow"> NetFlix</a> </i></p>
 
   <p>  Furthermore, our credential system ensures our users that the people whom they're sharing 
 subscriptions with are trustworthy and not frauds. Users are reviewed on a scale similar to yelp;
