@@ -8,7 +8,8 @@ ________________________________________________________________________________
 <p>Have you ever wanted to sign up for a subscription service, but couldn't afford it?
 If so, you certainly aren't alone. Our service makes utlizing these sometimes costly services
 much more attainable; through the facilitation of "subscription sharing". Depending on the 
-app, costs could be shared by groups of people from 2 to unlimited. </p>
+app, costs could be shared by groups of people from 2 to unlimited. Services offered include: <i> Spotify, HBO Now!, 
+iHeartRadio,YouTubeTV,CrunchyRoll, Chegg </i></p>
 
   <p>  Furthermore, our credential system ensures our users that the people whom they're sharing 
 subscriptions with are trustworthy and not frauds. Users are reviewed on a scale similar to yelp;
@@ -64,6 +65,7 @@ ________________________________________________________________________________
   <strong> <h3> FUNCTIONALITY </h3> </strong>
   __________________________________________________________________________________________________________________________________
   
+  
   <strong> <h3> CONTACT <strong></h3>
   ___________________________________________________________________________________________________________________________________
   
@@ -73,6 +75,10 @@ ________________________________________________________________________________
   <li><small> Ahmed Chebli <ins> ahmedchebli@gmail.com </ins></small></li>
   <li><small> Christopher Brady <ins> chrismbrady@gmail.com </ins></small></li>
   
+  <h3> <strong> LOOKING TOWARD THE FUTURE <strong></h3>
+  __________________________________________________________________________________________________________________________________
+  
+  <p><small> Changes we would like to consider in the future include:</small> </p>
   
     
 
