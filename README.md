@@ -22,3 +22,7 @@ Our app gleams by making the subscription sharing process a seamless one for all
 <ol> CSS3 </ol>
 <ol> MongoDB </ol>
 <ol> React </ol>
+
+<strong> <h4> About the project </h4> </strong>
+
+
