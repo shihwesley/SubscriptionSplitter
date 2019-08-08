@@ -12,10 +12,9 @@ const userSchema = new mongoose.Schema({
   },
   userID: {type: String, required: [true]},
   photo: String,
-  credibility: Integer,
+  //credibility: Integer,
 });
 
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
-
