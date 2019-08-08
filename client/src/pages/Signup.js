@@ -33,10 +33,18 @@ const UserScreen = ({user}) => (
 
 class Signup extends Component {
   state = {user:false};
-  facebookResponse = (response) => { console.log( response ); this.setState( {...this.state, user: response } ) }
+  facebookResponse = (response) => { console.log( response ); API.saveUser({
+    name: response.name,
+    email: response.email,
+    userID: response.id
+  })
+    .then(res => console.log(res)); this.setState( {...this.state, user: response } ) }
+
+
 
   render() {
-    const responseFacebook1 = (response) => {
+
+    const facebookResponse = (response) => {
       console.log("signup");
       console.log(response);
       API.saveUser({
@@ -46,6 +54,7 @@ class Signup extends Component {
       })
         .then(res => console.log(res));
     };
+
     const responseFacebook2 = (response) => {
       console.log("login");
       

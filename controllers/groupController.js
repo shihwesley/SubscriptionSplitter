@@ -3,18 +3,19 @@ const db = require("../models");
 // Defining methods for the userController
 module.exports = {
   create: function(req, res) {
-    console.log("creating");
-    console.log(req.body);
-    db.User
+    console.log("creating groups");
+    console.log("hello" + req.body.name);
+    db.Groups
       .create(req.body)
       .then(dbModel => console.log(dbModel))
       .catch(err => res.status(422).json(err));
   },
-  find: function(req, res) {
-    db.User
-      .find({"userID": req.userID})
-      .then(dbModel => console.log("profile: " + res.json(dbModel)))
+  findAll: function (req, res) {
+    console.log("printing groups");
+    db.Groups
+      .find(req.query)
+      .sort({date: -1})
+      .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
-  },
-
+  }
 };
