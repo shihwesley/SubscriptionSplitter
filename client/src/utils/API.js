@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default {
-  // Gets all books
+  // Gets all services
   getService: function() {
     return axios.get("/api/service");
   },
@@ -10,6 +10,9 @@ export default {
     return axios.get("/api/groups");
   },
   // Gets the book with the given id
+
+  // Gets the service with the given id
+
   getUser: function(id) {
     return axios.get("/api/service/" + id);
   },
