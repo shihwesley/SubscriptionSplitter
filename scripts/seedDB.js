@@ -4,33 +4,32 @@ const db = require("../models");
 // This file empties the Books collection and inserts the books below
 
 mongoose.connect(
-  process.env.mongoURI ||
-  "mongodb://localhost/subsplit"
+  "mongodb://heroku_5g538fqx:clmvn842qd64o9nr9r934mt6a3@ds247637.mlab.com:47637/heroku_5g538fqx"
 );
 
 const serviceSeed = [
   {
     name: "Netflix",
-  plan: "https://www.netflix.com/signup/planform",
-  usersAmount: 4,
-  price: 15.99,
-  description: "UHD quality, unlimited movies/TV Shows and cancel anytime",
-  category: "Movie Streaming"
+    plan: "https://www.netflix.com/signup/planform",
+    usersAmount: 4,
+    price: 15.99,
+    description: "UHD quality, unlimited movies/TV Shows and cancel anytime",
+    category: "Movie Streaming"
   },
   {
     name: "YouTube TV",
-  plan: "https://tv.youtube.com/welcome/",
-  usersAmount: 6,
-  price: 49.99,
-  description: "Live TV from 70+ networks including local sports and news. No cable box required.",
-  category: "Live TV"
+    plan: "https://tv.youtube.com/welcome/",
+    usersAmount: 6,
+    price: 49.99,
+    description: "Live TV from 70+ networks including local sports and news. No cable box required.",
+    category: "Live TV"
   },
   {
     name: "Chegg" ,
     plan: "https://www.chegg.com/study" ,
     usersAmount: "Unlimited",
     price: 14.95,
-    description: "Textbook solutions, Expert Q&A", 
+    description: "Textbook solutions, Expert Q&A",
     category: "Study"
   },
   {
@@ -38,16 +37,16 @@ const serviceSeed = [
     plan: "https://www.pandora.com/upgrade/premium/family-plan" ,
     usersAmount: 6,
     price: 14.99,
-    description: "Create your own radio station based on preferred artists", 
+    description: "Create your own radio station based on preferred artists",
     category: "Music"
-    
+
   },
   {
     name: "HBO Now!" ,
     plan: "https://subscribe.hbonow.com/?returnPath=%2Fpage%2Furn%3Ahbo%3Apage%3Ahome&origin=playStartFreeTrial&sessionId=23df73fb-058e-41c8-d80e-b1b47c6cad16" ,
     usersAmount: "Unlimited",
     price: 14.99,
-    description: "Access to everything HBO offers, with no cable needed", 
+    description: "Access to everything HBO offers, with no cable needed",
     category: "Movie Streaming"
   },
   {
@@ -66,10 +65,9 @@ const serviceSeed = [
     description: "Anime streaming service",
     category: "Anime"
   }];
-  
 
-db.Service 
-  .remove({})
+
+db.Service
   .then(() => db.Service.collection.insertMany(serviceSeed))
   .then(data => {
     console.log(data.result.n + " service inserted!");
