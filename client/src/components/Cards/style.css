@@ -1,0 +1,22 @@
+.container {
+  margin-bottom: 100px;
+}
+
+.card {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 1.5rem 4rem rgba(61, 39, 39, 0.1);
+  background-color: #fff;
+}
+
+.card__header {
+  position: relative;
+}
+
+.card__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1.75rem;
+  grid-column-gap: 2rem;
+  padding: 2.5rem 3rem;
+}

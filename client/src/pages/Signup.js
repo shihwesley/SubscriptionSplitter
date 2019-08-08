@@ -1,17 +1,43 @@
 import React, { Component } from "react";
 import JumboSignup from "../components/JumboSignup";
 import { Col, Row, Container } from "../components/Grid";
-import FacebookLogin from 'react-facebook-login';
 import API from "../utils/API";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
+import FacebookLoginWithButton from 'react-facebook-login';
+
+const componentClicked = () => {
+  console.log( "Clicked!" )
+}
+
+const LoginButton = ({facebookResponse}) => (
+  <FacebookLoginWithButton
+appId="200283943885916" //APP ID NOT CREATED YET
+fields="name,email,picture"
+autoLoad
+callback={facebookResponse}
+onClick={componentClicked}
+icon="fa-facebook"/>
+)
+
+
+const UserScreen = ({user}) => (
+  <>
+  <h1>Welcome {user.name}!</h1>
+<p>{ user.email }</p>
+<img src={user.picture.data.url} height={user.picture.height} width={user.picture.width} alt="avatar"/>
+  </>
+)
+
+
 class Signup extends Component {
   // Initialize this.state.books as an empty array
-  state = {
-    title: "",
-    author: ""
-  };
+  state = {user:false};
+  facebookResponse = (response) => { console.log( response ); this.setState( {...this.state, user: response } ) }
+
+
+
 
 
   // handleFormSubmit = event => {
@@ -30,10 +56,12 @@ class Signup extends Component {
 
   render() {
     const responseFacebook1 = (response) => {
+      console.log("signup");
       console.log(response);
       API.saveUser({
-        title: response.name,
-        author: response.id
+        name: response.name,
+        email: response.email,
+        userID: response.id
       })
         .then(res => console.log(res));
     };
@@ -58,21 +86,17 @@ class Signup extends Component {
             <JumboSignup>
               <h1>SignUp With Facebook</h1>
             </JumboSignup>
-            <FacebookLogin
-              appId="200283943885916" //APP ID NOT CREATED YET
-              fields="name,email,picture"
-              callback={responseFacebook1}
-            />
+            { this.state.user ? <UserScreen user={this.state.user}/> :
+            <LoginButton facebookResponse={this.facebookResponse}/>
+            }
           </Col>
           <Col size="md-6 sm-12">
             <JumboSignup>
               <h1>Login With Facebook</h1>
             </JumboSignup>
-            <FacebookLogin
-              appId="200283943885916" //APP ID NOT CREATED YET
-              fields="name,email,picture"
-              callback={responseFacebook2}
-            />
+            { this.state.user ? <UserScreen user={this.state.user}/> :
+            <LoginButton facebookResponse={this.facebookResponse}/>
+            }
           </Col>
         </Row>
         <Footer />
@@ -94,8 +118,16 @@ class Signup extends Component {
       // <h3>No Results to Display</h3>
       // )}
 
+
     );
   }
 }
 
 export default Signup;
+
+// <FacebookLogin
+// appId="200283943885916" //APP ID NOT CREATED YET
+// fields="name,email,picture"
+// autoLoad
+// callback={responseFacebook1}
+// />
