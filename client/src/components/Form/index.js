@@ -8,12 +8,12 @@ function Form() {
     <h3>Create Your Group</h3>
     <form>
       <div class="form-group">
-        <label for="service">Service</label>
-        <input type="service" class="form-control" id="service"  placeholder="What service do you want to split"></input>
-        <label for="password">Password</label>
-        <input type="email" class="form-control" id="password"  placeholder="Enter your password"></input>
-        <label for="confirmPassword">Confirm Password</label>
-        <input type="email" class="form-control" id="confirmPassword"  placeholder="Confirm your password"></input>
+        <label for="service">Name</label>
+        <input type="service" class="form-control" id="name"  placeholder="What name do you want to call your group"></input>
+        <label for="password">Description</label>
+        <input type="email" class="form-control" id="description"  placeholder="Describe who you want to split it with"></input>
+        <label for="confirmPassword">UserAmount</label>
+        <input type="email" class="form-control" id="useramount"  placeholder="The amount of users that you want to split it with"></input>
         <button class="btn sub-btn btn-md">Submit</button>
       </div>
     </form>

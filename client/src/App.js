@@ -79,8 +79,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Signup" component={Signup} />
-          <Route exact path="/Creategroup" component={Signin} />
-          <Route exact path="/Netflix" component={Signin} />
+          <Route exact path="/Netflix" component={Netflix} />
 
         </Switch>
       </div>
