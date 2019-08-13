@@ -27,5 +27,13 @@
     "mongoose": "^5.3.16",
     "react-facebook-login": "^4.1.1",
     "react-native-fbsdk": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shihwesley/SubscriptionSplitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shihwesley/SubscriptionSplitter/issues"
+  },
+  "homepage": "https://github.com/shihwesley/SubscriptionSplitter#readme"
 }

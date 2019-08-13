@@ -3,13 +3,15 @@ import JumboSignup from "../components/JumboSignup";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import Cards from "../components/Cards";
-// import Button from "../components/Button";
 import Form from "../components/Form";
 import { Col, Row, Container } from "../components/Grid";
+<<<<<<< HEAD
 // import Button from "../components/Button";
 import API from "../utils/API";
 import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Forms";
+=======
+>>>>>>> f10a1d83efe16078d9beea3da745f7fb0a2c2d02
 
 const serviceSeed = [
   {
