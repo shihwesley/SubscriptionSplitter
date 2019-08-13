@@ -10,7 +10,12 @@
     "react-dom": "^16.6.3",
     "react-facebook-login": "^4.1.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^2.1.1",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.3.16",
+    "path": "^0.12.7",
+    "react-native-fbsdk": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

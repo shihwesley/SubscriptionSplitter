@@ -6,12 +6,18 @@ import Cards from "../components/Cards";
 import Form from "../components/Form";
 import { Col, Row, Container } from "../components/Grid";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ace21229e943f3d41534946ce8eaf06b85f79400
 // import Button from "../components/Button";
 import API from "../utils/API";
 import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Forms";
+<<<<<<< HEAD
 =======
 >>>>>>> f10a1d83efe16078d9beea3da745f7fb0a2c2d02
+=======
+>>>>>>> ace21229e943f3d41534946ce8eaf06b85f79400
 
 const serviceSeed = [
   {
